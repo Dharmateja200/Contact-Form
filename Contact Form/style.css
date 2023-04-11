@@ -1,0 +1,99 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   /* background-color: rgb(255, 200, 0); */
+   /* background-color: beige; */
+   background-color: rgb(118, 185, 245);
+
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.wrapper {
+
+    position: relative;
+    width: 500px;
+    height: 700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    background-color: white;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    margin-top: 100px;
+    color: #162938;
+    top: -69px;
+    position: relative;
+    right: -110px;
+
+}
+.input-box{
+    /* padding: 10px; */
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #162938 ;
+    margin:30px 0;
+}
+.input-box label{
+
+    pointer-events: none;
+    margin-top: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #162938;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40%;
+    background: transparent;
+    border: none;
+    outline:none;
+
+}
+
+ .input-box #icon img{
+    width: 20px;
+    position: absolute;
+    right: 8px;
+    font-size: 12em;
+    color: #162938;
+    line-height: 57px;
+}
+.messge-area textarea{
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+}
+button#submit{
+ width :100%;
+ height:45px;
+ background: #162938;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ font-size: 1em;
+ color: #fff;
+
+}
+
